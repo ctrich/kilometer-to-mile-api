@@ -7,7 +7,7 @@ const PORT = 8000;
 app.use(cors());
 
 let kmTOmiles = (km) => {
-    return !(km * 0.62137) ? {'kilometers': 'Please enter a number'} : {'kilometers': km * 0.62137};   
+    return !(km * 0.62137) ? {'miles': 'Please enter a number'} : {'miles': km * 0.62137};   
 }
 
 app.get('/', (req, res) => {
