@@ -14,6 +14,12 @@
 npm install
 ```
 
+## Tech
+
+```sh
+node.js, express.js, HTML5, javascript, Heroku
+```
+
 ## Run tests
 
 ```sh
